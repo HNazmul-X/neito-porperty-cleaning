@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+body, * {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Kalam', cursive;
+}
+
+.theme-color {
+  color: #06be00 !important;
+}
+
+.theme-bg {
+  background: #06be00 !important;
+}
+
+.hnazmul-navbar {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: fixed;
+  z-index: 100;
+  background: white;
+  width: 100%;
+}
+
+body, * {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Kalam', cursive;
+}
+
+.theme-color {
+  color: #06be00 !important;
+}
+
+.theme-bg {
+  background: #06be00 !important;
+}
+
+#basic-card {
+  min-width: 200px;
+  padding: 20px;
+}
+
+#basic-card .button {
+  text-align: center;
+}
+
+#basic-card .button .btn {
+  background: #06be00;
+  padding: 10px 30px;
+  border: none;
+}
+
+#footer {
+  padding: 20px;
+}
+
+#footer .container > .icons .iconify {
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+body, * {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Kalam', cursive;
+}
+
+.theme-color {
+  color: #06be00 !important;
+}
+
+.theme-bg {
+  background: #06be00 !important;
+}
+
+body {
+  background: #f8fffd;
+}
+
+#header-of-homepage {
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+
+#header-of-homepage .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.header-card {
+  background: white;
+  width: 400px;
+  margin-top: 50px;
+  text-align: left;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.header-card .content {
+  margin-bottom: 20px;
+}
+
+.header-card .content h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.header-card .content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.header-card .button .btn {
+  color: white;
+  padding: 10px 30px;
+}
+
+@media screen and (max-width: 586px) {
+  #header-of-homepage .header-card {
+    width: 300px;
+    height: auto;
+  }
+  #header-of-homepage .header-card .content {
+    margin-bottom: 0;
+    padding: 10px;
+  }
+  #header-of-homepage .header-card .content h1 {
+    font-size: 30px;
+  }
+  #header-of-homepage .header-card .content p {
+    font-size: 15px;
+  }
+}
+
+#services-page .service {
+  margin-top: 50px;
+}
+
+#services-page .service .service_head {
+  border-left: 5px solid #bbbbbb;
+  padding-top: 20px;
+}
+
+#services-page .service .service_head h2 {
+  padding: 20px;
+  font-size: 48px;
+  font-weight: 300;
+  font-family: "Kalam", cursive;
+}
+
+#services-page .service .service_content {
+  padding: 20px;
+}
+
+#services-page .service .service_content p {
+  font-size: 18px;
+  color: #000;
+  font-family: "Kalam", cursive;
+}
+
+#services-page .service .service_content a {
+  font-size: 18px;
+  color: white;
+  background-color: #058a00;
+  padding: 10px;
+  font-family: "Kalam", cursive;
+}
+
+#services-page .service .service_img .img {
+  position: relative;
+  padding: 20px;
+}
+
+#services-page .service .service_img img {
+  border-radius: 30px;
+}
+
+#services-page .service .service_img .middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#services-page .service .service_img .text {
+  color: white;
+  font-size: 36px;
+  padding: 16px;
+  font-family: "Kalam", cursive;
+}
+
+#about-page .about-us-header-image img {
+  border-radius: 50px !important;
+}
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+body, * {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Kalam', cursive;
+}
+
+.theme-color {
+  color: #06be00 !important;
+}
+
+.theme-bg {
+  background: #06be00 !important;
+}
+
+nav#navbar .nav > .nav-item > .nav-link {
+  color: black;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+nav#navbar .nav > .nav-item > .nav-link.active {
+  border-bottom: 3px solid #06be00;
+  color: #048b00 !important;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 700px) {
+  nav#navbar .nav > .nav-item > .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,24 @@
+@import "../../Styles/include/util";
+
+nav#navbar {
+    .nav {
+        & > .nav-item {
+            & > .nav-link {
+                color: black;
+                font-size: 14px;
+                padding: 10px 20px;
+
+                &.active {
+                    border-bottom: 3px solid $primary-color;
+                    color:darken($primary-color, 10%) !important
+                    ;font-weight: 700;
+                }
+
+                @media screen and (min-width: 700px) {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

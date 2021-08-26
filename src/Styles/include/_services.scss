@@ -1,0 +1,56 @@
+#services-page {
+    .service {
+        margin-top: 50px;
+        .service_head {
+            border-left: 5px solid #bbbbbb;
+            padding-top: 20px;
+            h2 {
+                padding: 20px;
+                font-size: 48px;
+                font-weight: 300;
+                font-family: "Kalam", cursive;
+            }
+        }
+
+        .service_content {
+            padding: 20px;
+            p {
+                font-size: 18px;
+                color: #000;
+                font-family: "Kalam", cursive;
+            }
+            a {
+                font-size: 18px;
+                color: white;
+                background-color: #058a00;
+                padding: 10px;
+                font-family: "Kalam", cursive;
+            }
+        }
+        .service_img {
+            .img {
+                position: relative;
+                padding: 20px;
+            }
+            img {
+                border-radius: 30px;
+            }
+
+            .middle {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+            .text {
+                color: white;
+                font-size: 36px;
+                padding: 16px;
+                font-family: "Kalam", cursive;
+            }
+        }
+    }
+}
